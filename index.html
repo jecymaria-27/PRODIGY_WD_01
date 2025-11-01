@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Novexa Agency | Digital Marketing & Creative Solutions</title>
+  <meta name="description" content="Novexa Agency - Digital marketing, creative solutions, SEO, Google Ads, content creation, and more to elevate your brand." />
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/a2d9b6e6a4.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div id="overlay" onclick="closeMenu()" tabindex="-1" aria-hidden="true"></div>
+
+  <header id="navbar">
+    <nav role="navigation" aria-label="Main navigation">
+      <div class="logo">Novexa Agency</div>
+      <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="menu" onclick="toggleMenu()">
+        <i class="fas fa-bars" aria-hidden="true"></i>
+      </button>
+      <ul id="menu" role="menu">
+        <li role="none"><a href="#home" role="menuitem" tabindex="0" onclick="closeMenu()">Home</a></li>
+        <li role="none"><a href="#about" role="menuitem" tabindex="0" onclick="closeMenu()">About</a></li>
+        <li role="none"><a href="#services" role="menuitem" tabindex="0" onclick="closeMenu()">Services</a></li>
+        <li role="none"><a href="#contact" role="menuitem" tabindex="0" onclick="closeMenu()">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h1>Welcome to Novexa Agency</h1>
+    <p>We create digital experiences that elevate brands through design, strategy, and innovation.</p>
+  </section>
+
+  <section id="about" class="reveal">
+    <h2>About Us</h2>
+    <p>At Novexa Agency, we blend creativity and technology to craft solutions that deliver measurable growth. Our team of experts ensures your brand gets noticed and remembered.</p>
+  </section>
+
+  <section id="services" class="reveal">
+    <h2>Our Services</h2>
+    <div class="services-container">
+      <div class="service-row">
+        <div class="service-image" style="background-image:url('https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=900&q=60');"></div>
+        <div class="service-content">
+          <h3>Digital Marketing</h3>
+          <p>High-impact campaigns that connect with your target audience across all digital platforms.</p>
+        </div>
+      </div>
+
+      <div class="service-row">
+        <div class="service-image" style="background-image:url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=900&q=60');"></div>
+        <div class="service-content">
+          <h3>Content Creation</h3>
+          <p>Creative visuals, videos, and copywriting that communicate your brand's voice effectively.</p>
+        </div>
+      </div>
+
+      <div class="service-row">
+        <div class="service-image" style="background-image:url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=900&q=60');"></div>
+        <div class="service-content">
+          <h3>Websites</h3>
+          <p>Responsive, modern, and performance-driven websites that showcase your business identity.</p>
+        </div>
+      </div>
+
+      <div class="service-row">
+        <div class="service-image" style="background-image:url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=900&q=60');"></div>
+        <div class="service-content">
+          <h3>SEO Optimization</h3>
+          <p>Boost your search engine rankings and visibility with powerful, data-driven SEO strategies.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="reveal">
+    <h2>Contact Us</h2>
+    <p>Ready to take your brand to the next level? Reach out and let's build something amazing together.</p>
+    <p class="email">Email: <a href="mailto:hello@novexaagency.com" style="color:#ffcc00; text-decoration:none;">hello@novexaagency.com</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 Novexa Agency. All rights reserved.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
